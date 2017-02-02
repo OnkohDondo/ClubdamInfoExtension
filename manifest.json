@@ -1,0 +1,17 @@
+{
+	"name": "精密集計Extended",
+	"version": "0.0.1",
+	"manifest_version": 2,
+	"description": "精密集計の各種機能の拡張",
+	"content_scripts": [
+		{
+			"matches": [
+				"http://clubdam.info/*",
+		 		"https://clubdam.info/*", 
+		 		"http://dx-g.clubdam.info/*",
+		 		"https://dx-g.clubdam.info/*"
+			],
+			"js": ["jquery-3.1.0.min.js", "jquery.livequery.min.js", "script.js"]
+		}
+	]
+}
